@@ -77,7 +77,7 @@ value={targetLanguage}>
         <option value="ta">Tamil</option>
 </select>
 
-<div>
+
 
   <textarea 
   
@@ -89,7 +89,7 @@ value={targetLanguage}>
   }
   }
   ></textarea>
-</div>
+
 
 </div>
 

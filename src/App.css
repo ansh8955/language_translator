@@ -11,4 +11,18 @@
 button{
   width: 30%;
   padding: 0.5rem;
+  cursor: pointer;
+}
+
+
+select{
+
+  padding: 0.3rem;
+}
+
+textarea{
+
+width: 60%;
+margin: 1rem;
+
 }
