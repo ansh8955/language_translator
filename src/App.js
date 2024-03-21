@@ -82,7 +82,7 @@ value={targetLanguage}>
   <textarea 
   
   placeholder='Enter data here'
-  col="50" rows="8"
+  col="40" rows="8"
   name='data'
   onChange={(e)=>{
     setData(e.target.value)
@@ -91,15 +91,6 @@ value={targetLanguage}>
   ></textarea>
 </div>
 
-<div>
-
-  <textarea 
-  name = "data"
-  placeholder=''
-  
-
-  col="50" rows="8"></textarea>
-</div>
 </div>
 
 <button onClick={translate}>Translate</button>
