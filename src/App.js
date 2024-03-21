@@ -37,9 +37,6 @@ try {
 } catch (error) {
 	console.error(error);
 }
-
-
-
   }
 
 
@@ -82,18 +79,24 @@ value={targetLanguage}>
 
 <div>
 
-  <textarea col="50" rows="8"></textarea>
+  <textarea 
+  
+  placeholder='Enter data here'
+  col="50" rows="8"
+  name='data'
+  onChange={(e)=>{
+    setData(e.target.value)
+  }
+  }
+  ></textarea>
 </div>
 
 <div>
 
   <textarea 
   name = "data"
-  placeholder='enter data here'
-  onChange={(e)=>{
-    setData(e.target.value)
-  }
-  }
+  placeholder=''
+  
 
   col="50" rows="8"></textarea>
 </div>
